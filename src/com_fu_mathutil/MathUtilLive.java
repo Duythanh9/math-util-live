@@ -18,6 +18,10 @@ public class MathUtilLive {
         System.out.println("5! = 120; actual: " + result);
         System.out.println("6! = 720; actual: " + MathUtil.getFactorial(6));
         System.out.println("0! = 1; actual: " + MathUtil.getFactorial(1));
+        
+        // Thêm code sau lần đầu tiên làm chuyện ấy 9h43AM
+        System.out.println("1! = 1; actual: " + MathUtil.getFactorial(1));
+        System.out.println("3! = 6; actual: " + MathUtil.getFactorial(3));
 
         // MathUtil.getFactorial(-5); // ném ngoại lệ
         // kĩ thuật kiểm thử phần mềm: ước lượng xem giá trị trả về của hàm là gì
